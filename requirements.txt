@@ -1,17 +1,50 @@
-flask
-flask-cors
-flask-socketio
+# Core Flask dependencies
+Flask
+Flask-CORS
+Flask-SocketIO
 python-socketio
+python-engineio
 eventlet
-numpy
-opencv-python
-librosa
-tensorflow
+
+# Environment and configuration
+python-dotenv
+
+# HTTP requests
+requests
+
+# Machine Learning - PyTorch ecosystem
 torch
 torchvision
-pydub
-requests
-python-dotenv
-tqdm
+torchaudio
+
+# Hugging Face Transformers
+transformers
+tokenizers
+
+# Computer Vision
+opencv-python
+Pillow
+
+# Audio Processing
+librosa
+soundfile
+scipy
+
+# Scientific Computing
+numpy
+pandas
+
+# Image Processing
+scikit-image
+
+# Additional ML utilities
 scikit-learn
-gunicorn
+
+# Logging and utilities
+coloredlogs
+
+# For better performance
+accelerate
+
+# Development and debugging
+psutil
