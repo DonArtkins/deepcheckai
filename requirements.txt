@@ -1,0 +1,17 @@
+flask
+flask-cors
+flask-socketio
+python-socketio
+eventlet
+numpy
+opencv-python
+librosa
+tensorflow
+torch
+torchvision
+pydub
+requests
+python-dotenv
+tqdm
+scikit-learn
+gunicorn
