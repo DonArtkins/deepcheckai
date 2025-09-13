@@ -1,4 +1,4 @@
-app = "deepfake-ai-service"   # change this to your Fly.io app name
+app = "deepcheckai"   # change this to your actual Fly.io app name
 primary_region = "lhr"        # pick nearest region
 
 [build]
