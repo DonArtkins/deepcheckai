@@ -1,5 +1,5 @@
-app = "deepcheckai"   # change this to your actual Fly.io app name
-primary_region = "lhr"        # pick nearest region
+app = "deepcheckai"   # your Fly.io app name
+primary_region = "jnb"   # Johannesburg, South Africa
 
 [build]
   dockerfile = "Dockerfile"
