@@ -22,5 +22,5 @@ COPY . .
 # Expose port for Fly.io
 ENV PORT=8080
 
-# Start the app with Gunicorn + Eventlet (for Flask-SocketIO)
-CMD ["gunicorn", "--worker-class", "eventlet", "-w", "1", "--bind", "0.0.0.0:8080", "run:app"]
+# Start the app with Gunicorn + Gevent (for Flask-SocketIO)
+CMD ["gunicorn", "--worker-class", "gevent", "-w", "1", "--bind", "0.0.0.0:8080", "run:application"]
