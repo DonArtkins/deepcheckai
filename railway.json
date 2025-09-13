@@ -6,6 +6,6 @@
     }
   },
   "deploy": {
-    "startCommand": "gunicorn --worker-class eventlet -w 1 --bind 0.0.0.0:$PORT run:app"
+    "startCommand": "gunicorn --worker-class gevent -w 1 --bind 0.0.0.0:$PORT run:application"
   }
 }
