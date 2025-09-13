@@ -1,51 +1,11 @@
-# Core Flask dependencies
 Flask
 Flask-CORS
 Flask-SocketIO
-python-socketio
-python-engineio
-gunicorn
-eventlet
-
-# Environment and configuration
 python-dotenv
-
-# HTTP requests
 requests
-
-# Machine Learning - PyTorch ecosystem
-torch
-torchvision
-torchaudio
-
-# Hugging Face Transformers
-transformers
-tokenizers
-
-# Computer Vision
-opencv-python
+opencv-python-headless
 Pillow
-
-# Audio Processing
 librosa
 soundfile
-scipy
-
-# Scientific Computing
 numpy
-pandas
-
-# Image Processing
-scikit-image
-
-# Additional ML utilities
-scikit-learn
-
-# Logging and utilities
-coloredlogs
-
-# For better performance
-accelerate
-
-# Development and debugging
-psutil
+scipy
